@@ -1,14 +1,27 @@
 .container, body{
 	height: 100%;
 	width: 100%;
+	position: fixed;
+	overflow-y:scroll;
+	padding: 0
 }
 
+nav{
+	opacity: .5
+}
 .content_area{
 	background-color: #ECC7AA;
 	height: 100%;
 	width: 100%;
-	position: absolute;;
-	left: 0%
+	left: -1.5%;
+	position: relative;
+	left: 0%;
+	border-bottom: 1px solid black
+}
+
+/* Universaal Text Formatting*/
+.section-title{
+	margin: 0px
 }
 
 /* Top Section on home page */
@@ -22,14 +35,33 @@
 
 #home-title-box{
 	z-index: 10;
-	width:100%;
-	height: 60%;
-	position: relative;top: -85%;
+	width:60%;
+	height: 20%;
+	position: relative;
+	top: -55%;
 	text-align: center;
-
-
+	vertical-align: middle;
+	left: 20%;
+	color: green
 }
 
 .logo{
 	height: 90%
+}
+
+/* Section 3*/
+.half-box{
+	height: 100%;
+	width:50%;
+	border: 1px solid white;
+	position: absolute;
+}
+
+#sweet{
+	background-color: red
+}
+
+#savory{
+	left: 50%;
+	background-color: blue
 }
