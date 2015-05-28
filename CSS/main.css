@@ -10,13 +10,21 @@ nav{
 	opacity: .5
 }
 .content_area{
-	background-color: #ECC7AA;
 	height: 100%;
 	width: 100%;
 	left: -1.5%;
 	position: relative;
 	left: 0%;
 	border-bottom: 1px solid black
+}
+ #area2{
+	background-color: #ECC7AA;
+	z-index: 7;
+}
+
+#area1{
+	z-index: 7;
+	border: 1px solid white
 }
 
 /* Universaal Text Formatting*/
@@ -31,6 +39,8 @@ nav{
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	position: fixed;
+	z-index: 1
 }
 
 #home-title-box{
@@ -38,30 +48,45 @@ nav{
 	width:60%;
 	height: 20%;
 	position: relative;
-	top: -55%;
 	text-align: center;
 	vertical-align: middle;
 	left: 20%;
-	color: green
+	color: green;
+	top: 30%
 }
 
 .logo{
 	height: 90%
 }
 
-/* Section 3*/
-.half-box{
-	height: 100%;
-	width:50%;
-	border: 1px solid white;
+/*Section 2*/
+
+.fact-circle{
+	height: 320px;
+	width: 320px;
 	position: absolute;
+	border: 2px solid black;
+	border-radius: 50%
 }
 
-#sweet{
-	background-color: red
+#fact1{
+	left: 1.5%;
+	top: 10%;
 }
 
-#savory{
-	left: 50%;
-	background-color: blue
+#fact2{
+	top: 40%;
+	left: 24.5%;
 }
+
+#fact3{
+	top: 10%;
+	left: 49%;
+}
+
+#fact4{
+	top: 40%;
+	left: 73%;
+}
+
+
