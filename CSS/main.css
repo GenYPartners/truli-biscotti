@@ -9,22 +9,52 @@
 nav{
 	opacity: .5
 }
+
+.mid-div{
+	left: 35%;
+
+}
+
+@media screen and (max-width: 767px) {
+	.mid-div{
+	left: 0%;
+}
+}
+
 .content_area{
 	height: 100%;
 	width: 100%;
 	left: -1.5%;
 	position: relative;
 	left: 0%;
-	border-bottom: 1px solid black
 }
  #area2{
-	background-color: #ECC7AA;
+	
 	z-index: 7;
+}
+@media screen and (max-width: 1200px) {
+	#area2{
+		height: 120%;
+}
+}
+@media screen and (max-width: 600px) {
+	#area2{
+		height: 220%;
+}
+}
+
+.footer{
+	height:30%;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	position: relative;
+	z-index: 10;
+
 }
 
 #area1{
 	z-index: 7;
-	border: 1px solid white
 }
 
 /* Universaal Text Formatting*/
@@ -61,32 +91,70 @@ nav{
 
 /*Section 2*/
 
+#tb-section2{
+	top: 10%;
+	position: relative;
+	text-align: center;
+}
+#c-section2{
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 10%
+}
+
+.fact-box{
+	height: 300px;
+	width: 300px;
+	text-align: center;
+}
 .fact-circle{
-	height: 320px;
-	width: 320px;
-	position: absolute;
+	height: 200px;
+	width: 200px;
 	border: 2px solid black;
-	border-radius: 50%
+	border-radius: 50%;
+	position: relative;
+	margin: 0 auto
 }
 
-#fact1{
-	left: 1.5%;
-	top: 10%;
+/* Footer */
+
+.logo-footer{
+	width: auto;
+	height: 100%;
+	
 }
 
-#fact2{
-	top: 40%;
-	left: 24.5%;
+.fcolumn{
+	height: 100%;
+	width: 25%;
+	text-align: center;
+	vertical-align: middle;
 }
 
-#fact3{
-	top: 10%;
-	left: 49%;
+#col1{
+	padding-top: 2%
 }
 
-#fact4{
-	top: 40%;
-	left: 73%;
+#col1 a{
+	line-height: 3;
+	color: green;
+
 }
+
+#col2{
+	width: 50%
+}
+
+#col3{
+	padding-top: 5%
+
+}
+
+#col3 div{
+	color: green;
+	font-size: 2em;
+	margin: 3%;
+	}
+
 
 
