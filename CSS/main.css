@@ -7,7 +7,7 @@
 }
 
 nav{
-	opacity: .5
+	opacity: .8
 }
 
 .mid-div{
@@ -29,7 +29,7 @@ nav{
 	left: 0%;
 }
  #area2{
-	
+	background-color: white;
 	z-index: 7;
 }
 @media screen and (max-width: 1200px) {
@@ -64,7 +64,7 @@ nav{
 
 /* Top Section on home page */
 .top-img{
-	background-image: url("http://www.acmewoodworks.com/wp-content/uploads/2011/08/kitchen4.jpg");
+	background-image: url("https://dl.dropboxusercontent.com/s/my494u7uw0vh8a2/white-clean-home-kitchen-interior-design-some-home-appliance-you-must-have-to-achieve-a-clean-and-healthy-home.png?dl=0");
 	height: 100%;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -99,6 +99,7 @@ nav{
 #c-section2{
 	display: flex;
 	flex-flow: row wrap;
+	justify-content:center;
 	margin-top: 10%
 }
 
@@ -108,14 +109,40 @@ nav{
 	text-align: center;
 }
 .fact-circle{
-	height: 200px;
-	width: 200px;
+	height: 220px;
+	width: 220px;
 	border: 2px solid black;
 	border-radius: 50%;
 	position: relative;
-	margin: 0 auto
+	margin: 0 auto;
+	background-size: cover
+
 }
 
+#fcircle1{
+	background-image: url("https://dl.dropboxusercontent.com/s/jq86kxdj2j93zv7/2446506310_c82e0c6db8.jpg?dl=0");
+}
+
+#fcircle2{
+	background-image: url("https://dl.dropboxusercontent.com/s/k41wwew336rfd18/PortWineBiscottiDSC_0438_029.jpg?dl=0");
+}
+
+#fcircle3{
+	background-image: url("https://dl.dropboxusercontent.com/s/r9hnhh7uyej1ude/cranberry-almond-biscotti.jpg?dl=0");
+}
+
+#fcircle4{
+	background-image: url("https://dl.dropboxusercontent.com/s/32xrnr2upk8uypl/Fresh-Spices.jpg?dl=0");
+}
+
+.fact-text{
+
+	width: 80%;
+	left: 10%;
+	position: relative;
+	top: 6%;
+	font-size: 1.3em
+}
 /* Footer */
 
 .logo-footer{
