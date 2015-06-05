@@ -14,12 +14,28 @@ nav{
 	left: 35%;
 
 }
+.buy{
+	font-weight: 700;
+	background: transparent;
+	border: 2px solid black;
+	position: relative;
+	left: 67.5% !important;
+
+}
+
+.buy:hover{
+	background: black;
+	color: white;
+	border: 2px solid black
+}
 
 @media screen and (max-width: 767px) {
 	.mid-div{
-	left: 0%;
+	left: 0% !important;
 }
-}
+.buy{
+	left: 0%!important;
+}}
 
 .content_area{
 	height: 100%;
@@ -142,6 +158,10 @@ nav{
 	position: relative;
 	top: 6%;
 	font-size: 1.3em
+}
+
+.buy-main{
+	left: 
 }
 /* Footer */
 

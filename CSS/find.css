@@ -9,6 +9,7 @@
 
 nav{
 	opacity: .8;
+	z-index: 100;
 	margin-bottom: 0 !important
 }
 
@@ -16,12 +17,14 @@ nav{
 	left: 35%;
 
 }
+
 .buy{
 	font-weight: 700;
 	background: transparent;
 	border: 2px solid black;
 	position: relative;
 	left: 67.5% !important;
+
 }
 
 .buy:hover{
@@ -36,7 +39,8 @@ nav{
 }
 .buy{
 	left: 0%!important;
-}}
+}
+}
 .content_area{
 	background-color: #FFFEE8;
 	height: 100%;
@@ -48,45 +52,10 @@ nav{
 	text-align: center;
 }
 
-.content_area h1{
-	position: relative;
-	top: 3%
-
+.map{
+	border: 2px solid red
 }
-
-.line{
-	border: 1px solid black;
-	width: 80%;
-	height: 1px;
-	left: 10%;
-	position: relative;
-	top: 3%
-}
-
-.contact-icon-box{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-bottom: 2%;
-	margin-top: 3%
-}
-.contact-icon-box div{
-	font-size: 2em;
-	
-}
-
-.contact_a{
-	margin-left: 6.5%;
-	margin-right: 10%;
-	margin-bottom: 0;
-	color: black
-	
-}
-
-.contact_b{
-	margin-left: 3%;
-	margin-right: 3%;
-	color: black
-	
-
+iframe{
+	border: none;
+	z-index:1;
 }
