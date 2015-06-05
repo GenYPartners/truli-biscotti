@@ -15,12 +15,28 @@ nav{
 	left: 35%;
 
 }
+.buy{
+	font-weight: 700;
+	background: transparent;
+	border: 2px solid black;
+	position: relative;
+	left: 67.5% !important;
+
+}
+
+.buy:hover{
+	background: black;
+	color: white;
+	border: 2px solid black
+}
 
 @media screen and (max-width: 767px) {
 	.mid-div{
-	left: 0%;
+	left: 0% !important;
 }
-}
+.buy{
+	left: 0%!important;
+}}
 .content_area{
 	background-color: #FFFEE8;
 	height: 100%;
@@ -45,9 +61,9 @@ nav{
 	top: 3%;
 	left: 68%;
 	z-index: 5;
-	-ms-transform: rotate(1deg); /* IE 9 */
-    -webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
-    transform: rotate(1deg);
+	-ms-transform: rotate(4deg); /* IE 9 */
+    -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
+    transform: rotate(4deg);
 }
 
 .title{
