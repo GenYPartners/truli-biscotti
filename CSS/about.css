@@ -13,6 +13,7 @@ nav{
 
 .mid-div{
 	left: 35%;
+	font-family: 'Merriweather', serif;
 
 }
 .buy{
@@ -21,6 +22,7 @@ nav{
 	border: 2px solid black;
 	position: relative;
 	left: 67.5% !important;
+	font-family: 'Merriweather', serif;
 
 }
 
@@ -37,6 +39,16 @@ nav{
 .buy{
 	left: 0%!important;
 }}
+
+.navbar-brand{
+	padding: 0
+}
+
+.brand-logo{
+	height: 100%;
+	top: -5%
+	
+}
 .content_area{
 	background-color: #FFFEE8;
 	height: 100%;
@@ -72,6 +84,7 @@ nav{
 	text-align: center;
 	top: 1%;
 	position:relative;
+	font-family: 'Pacifico', cursive;
 
 }
 
@@ -107,6 +120,7 @@ width: 95%
 	width: 95%;
 	left: 2.5%;
 	position: absolute;
+	font-family: 'Merriweather', serif;
 }
 
 .top-quote{

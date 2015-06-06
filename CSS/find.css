@@ -41,6 +41,16 @@ nav{
 	left: 0%!important;
 }
 }
+
+.navbar-brand{
+	padding: 0
+}
+
+.brand-logo{
+	height: 100%;
+	top: -5%
+	
+}
 .content_area{
 	background-color: #FFFEE8;
 	height: 100%;
