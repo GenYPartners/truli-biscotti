@@ -11,7 +11,10 @@ nav{
 }
 
 .mid-div{
-	left: 36%;
+
+	left: 35%;
+	font-family: 'Merriweather', serif;
+
 
 }
 .buy{
@@ -20,7 +23,7 @@ nav{
 	border: 2px solid black;
 	position: relative;
 	left: 67.5% !important;
-
+	font-family: 'Merriweather', serif;
 }
 
 .buy:hover{
@@ -36,6 +39,16 @@ nav{
 .buy{
 	left: 0%!important;
 }}
+
+.navbar-brand{
+	padding: 0
+}
+
+.brand-logo{
+	height: 100%;
+	top: -5%
+	
+}
 
 .content_area{
 	height: 100%;
@@ -66,6 +79,8 @@ nav{
 	flex-flow: row wrap;
 	position: relative;
 	z-index: 10;
+	background-color: white;
+	opacity: .8;
 
 }
 
@@ -75,7 +90,8 @@ nav{
 
 /* Universaal Text Formatting*/
 .section-title{
-	margin: 0px
+	margin: 0px;
+	font-family: 'Pacifico', cursive;
 }
 
 /* Top Section on home page */
@@ -92,15 +108,22 @@ nav{
 #home-title-box{
 	z-index: 10;
 	width:60%;
-	height: 20%;
+	height: auto;
 	position: relative;
 	text-align: center;
 	vertical-align: middle;
 	left: 20%;
 	color: green;
-	top: 30%
+	top: 30%;
+	background-color: white;
+	opacity: .8;
+	padding: 2% 3%;
+	font-family: 'Merriweather', serif;
 }
 
+#action1{
+	left: 0%!important
+}
 .logo{
 	height: 90%
 }
@@ -151,12 +174,21 @@ nav{
 	background-image: url("https://dl.dropboxusercontent.com/s/32xrnr2upk8uypl/Fresh-Spices.jpg?dl=0");
 }
 
+
+.fact-tittle{
+	font-size: 1.8em;
+	top: 6%;
+	font-weight: 600;
+	font-family: 'Pacifico', cursive;
+	margin-bottom: 3%;
+	margin-top: 3%
+}
 .fact-text{
 
 	width: 80%;
 	left: 10%;
 	position: relative;
-	top: 6%;
+	font-family: 'Merriweather', serif;
 	font-size: 1.3em
 }
 
@@ -185,6 +217,7 @@ nav{
 #col1 a{
 	line-height: 3;
 	color: green;
+	font-family: 'Merriweather', serif;
 
 }
 
@@ -199,9 +232,19 @@ nav{
 
 #col3 div{
 	color: green;
-	font-size: 2em;
+	font-size: 3.5em;
 	margin: 3%;
+	-webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
 	}
 
+#col3 div:hover{
+	color: white;
+   font-size: 3.8em;
+}
 
+.buy-footer{
+	left:0%!important;
+	vertical-align: middle;
 
+}
