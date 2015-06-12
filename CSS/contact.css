@@ -2,7 +2,7 @@
 	height: 92%;
 	width: 100%;
 	position: fixed;
-	overflow-y:scroll;
+	overflow-y:fixed;
 	padding: 0;
 	top: 8%;
 }
@@ -13,7 +13,7 @@ nav{
 }
 
 .mid-div{
-	left: 35%;
+	left: 37%;
 	font-family: 'Merriweather', serif;
 
 }
@@ -85,13 +85,13 @@ nav{
 	margin-top: 3%
 }
 .contact-icon-box div{
-	font-size: 2em;
+	font-size: 1em;
 	
 }
 
 .contact_a{
-	margin-left: 6.5%;
-	margin-right: 10%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
 	margin-bottom: 0;
 	color: black;
 	font-family: 'Merriweather', serif;
@@ -102,6 +102,52 @@ nav{
 	margin-left: 3%;
 	margin-right: 3%;
 	color: black
-	
 
+}
+
+input,textarea{
+	position: relative;
+	border: 2px solid black;
+	margin: 1%;
+	height: 40px;
+	width: 350px;
+	text-align: center;
+	color: black;
+	font-family: 'Merriweather', serif;
+}
+
+textarea{
+	height: 100px
+}
+
+::-webkit-input-placeholder {
+   color: black;
+   font-family: 'Merriweather', serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+   font-family: 'Merriweather', serif;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black; 
+   font-family: 'Merriweather', serif; 
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+   font-family: 'Merriweather', serif;
+}
+
+.instructions{
+	font-family: 'Merriweather', serif;
+	font-size: 1.5em;
+	margin-top: 2%
+}
+.submit{
+	height: 40px;
+	width: 100px;
+	border: 2px solid black;
+	font-family: 'Merriweather', serif;
 }
