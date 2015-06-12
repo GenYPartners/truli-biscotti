@@ -12,7 +12,11 @@ nav{
 }
 
 .mid-div{
+<<<<<<< HEAD
 	left: 35%;
+=======
+	left: 37%;
+>>>>>>> master
 	font-family: 'Merriweather', serif;
 
 }
@@ -60,12 +64,13 @@ nav{
 }
 
 .picture{
-	background-image: url("https://dl.dropboxusercontent.com/s/423mlvp9p0swz42/Optimized-FullSizeRender.jpg?dl=0");
+	background-image: url("https://dl.dropboxusercontent.com/s/ylc7a2xftu9jm7u/IMG_7273.jpg?dl=0");
 	width: 23%;
 	height: 35%;
 	position: absolute;
 	background-size: cover;
-	z-index: 0
+	z-index: 0;
+	background-position: 0% 30%
 	
 }
 
