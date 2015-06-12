@@ -152,7 +152,8 @@ nav{
 	border-radius: 50%;
 	position: relative;
 	margin: 0 auto;
-	background-size: cover
+	background-size: cover;
+	background-position: center;
 
 }
 
@@ -161,7 +162,7 @@ nav{
 }
 
 #fcircle2{
-	background-image: url("https://dl.dropboxusercontent.com/s/k41wwew336rfd18/PortWineBiscottiDSC_0438_029.jpg?dl=0");
+	background-image: url("https://dl.dropboxusercontent.com/s/wun6d90ke95z6ma/Fig%20Walnut%20w%3A%20Grand%20Marnier.jpg?dl=0");
 }
 
 #fcircle3{
