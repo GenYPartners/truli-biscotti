@@ -63,13 +63,37 @@ nav{
 }
 @media screen and (max-width: 1200px) {
 	#area2{
-		height: 120%;
+		height: 150%;
 }
+	#fact4{
+		margin-top: 10%
+	}
 }
+
+@media screen and (max-width: 900px) {
+	#area2{
+		height: 180%;
+}
+
+	.fact-box{
+		margin-top: 10%
+	}
+}
+
+@media screen and (max-width: 1120px) and (min-width: 767px){
+	.buy-nav{
+		left: 50%!important
+	}
+}
+
 @media screen and (max-width: 600px) {
 	#area2{
 		height: 220%;
 }
+
+	#fact3{
+		margin-top: 18%
+	}
 }
 
 .footer{
@@ -141,10 +165,10 @@ nav{
 }
 #c-section2{
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;     /* NEW - Chrome */
-  display: flex; 
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex; 
 	flex-flow: row wrap;
 	justify-content:center;
 	margin-top: 10%
@@ -201,9 +225,6 @@ nav{
 	font-size: 1.3em
 }
 
-.buy-main{
-	left: 
-}
 /* Footer */
 
 .logo-footer{
