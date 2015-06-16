@@ -62,10 +62,30 @@ nav{
 	text-align: center;
 }
 
-.map{
-	border: 2px solid red
+.title{
+	font-family: 'Merriweather', serif;
+	top: 5%;
+	position: relative;
 }
-iframe{
-	border: none;
-	z-index:1;
+
+table{
+	height: 60%;
+	width: 60%;
+	position: relative;
+	top: 10%;
+	left: 20%
+}
+
+.row{
+	height: 33%;
+	width: 100%;
+}
+
+
+.logo{
+	width: 55%;
+	margin: 2%;
+	text-align: center;
+	vertical-align: middle;
+
 }
