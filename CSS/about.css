@@ -12,7 +12,9 @@ nav{
 }
 
 .mid-div{
+
 	left: 37%;
+
 	font-family: 'Merriweather', serif;
 
 }
@@ -35,6 +37,12 @@ nav{
 @media screen and (max-width: 767px) {
 	.mid-div{
 	left: 0% !important;
+}
+
+@media screen and (max-width: 1120px) and (min-width: 767px){
+	.buy-nav{
+		left: 50%!important
+	}
 }
 .buy{
 	left: 0%!important;
