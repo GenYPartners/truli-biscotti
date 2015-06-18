@@ -14,8 +14,7 @@ nav{
 
 .mid-div{
 
-	left: 37%;
-
+	left: 29%;
 	font-family: 'Merriweather', serif;
 
 }
@@ -24,7 +23,7 @@ nav{
 	background: transparent;
 	border: 2px solid black;
 	position: relative;
-	left: 67.5% !important;
+	left: 55.5% !important;
 	font-family: 'Merriweather', serif;
 
 }
@@ -61,7 +60,7 @@ nav{
 	
 }
 .content_area{
-	background-color: #FFFEE8;
+	background-color: #d5efa5;
 	height: 150%;
 	width: 100%;
 	left: -1.5%;
@@ -72,7 +71,7 @@ nav{
 .picture{
 	background-image: url("https://dl.dropboxusercontent.com/s/dz9xk5jhb73rh3n/IMG_7272.jpg?dl=0");
 	width: 23%;
-	height: 35%;
+	height: 23%;
 	position: absolute;
 	background-size: cover;
 	z-index: 0;
@@ -135,12 +134,13 @@ nav{
 }
 
 #sb2{
-	top: -10%
+	top: -10%;
+	width: 95%;
 }
 
 #sb3, #sb4{
 width: 95%;
-top: -20%
+top: -25%
 }
 
 @media screen and (max-width: 900px) {

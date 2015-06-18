@@ -2,7 +2,7 @@
 	height: 100%;
 	width: 100%;
 	position: fixed;
-	overflow-y:scroll;
+	overflow-y:hidden;
 	padding: 0
 }
 
@@ -12,8 +12,8 @@ nav{
 
 .mid-div{
 
-	left: 37%;
-	font-family: 'Merriweather', serif;
+	left: 29%;
+		font-family: 'Merriweather', serif;
 
 }
 
@@ -22,7 +22,7 @@ nav{
 	background: transparent;
 	border: 2px solid black;
 	position: relative;
-	left: 67.5% !important;
+	left: 55.5% !important;
 	font-family: 'Merriweather', serif;
 }
 
@@ -62,7 +62,8 @@ nav{
 	left: -1.5%;
 	position: relative;
 	left: 0%;
-	background-color: #FFFEE8;
+	top: -3%;
+	background-color: #d5efa5;
 }
 
 .title{
