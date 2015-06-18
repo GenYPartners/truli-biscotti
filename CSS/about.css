@@ -1,5 +1,5 @@
 .container, body{
-	height: 92%;
+	height: 110%;
 	width: 100%;
 	position: fixed;
 	overflow-y:scroll;
@@ -40,14 +40,16 @@ nav{
 	left: 0% !important;
 }
 
+.buy{
+	left: 0%!important;
+}}
+
 @media screen and (max-width: 1120px) and (min-width: 767px){
 	.buy-nav{
 		left: 50%!important
 	}
 }
-.buy{
-	left: 0%!important;
-}}
+
 
 .navbar-brand{
 	padding: 0
@@ -60,12 +62,11 @@ nav{
 }
 .content_area{
 	background-color: #FFFEE8;
-	height: 100%;
+	height: 150%;
 	width: 100%;
 	left: -1.5%;
 	position: relative;
 	left: 0%;
-	border-bottom: 1px solid black
 }
 
 .picture{
@@ -99,7 +100,7 @@ nav{
 }
 
 .paper{
-	height: 85%;
+	height: 75%;
 	width:80%;
 	left: 10%;
 	top: 10%;
@@ -111,11 +112,11 @@ nav{
 }
 
 .signature{
-	width: 12%;
+	width: 30%;
 	position: absolute;
-	left: 45%;
+	left: 35%;
 	z-index: 10;
-	top: 87%!important
+	top: 75%!important
 	
 }
 
@@ -129,13 +130,36 @@ nav{
 
 }
 
-#sb1{
+#sb1, #sb2{
 	height: 30%;
-	margin-bottom: 2%
 }
 
-#sb2, #sb3, #sb4{
-width: 95%
+#sb2{
+	top: -10%
+}
+
+#sb3, #sb4{
+width: 95%;
+top: -20%
+}
+
+@media screen and (max-width: 900px) {
+	#sb1{
+		top: 3%
+	}
+	#sb2, #sb3, #sb4{
+		top: 3%
+	}
+
+	#pic1{
+		background-position: center;
+		width: 30%	
+	}
+
+	.signature{
+		top: 95%!important;
+		margin-bottom: 3%
+	}
 }
 
 .story{
