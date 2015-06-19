@@ -13,7 +13,7 @@ nav{
 .mid-div{
 
 	left: 29%;
-		font-family: 'Merriweather', serif;
+		font-family: 'EB Garamond', serif;
 
 }
 
@@ -23,7 +23,7 @@ nav{
 	border: 2px solid black;
 	position: relative;
 	left: 55.5% !important;
-	font-family: 'Merriweather', serif;
+	font-family: 'EB Garamond', serif;
 }
 
 .buy:hover{
@@ -67,7 +67,7 @@ nav{
 }
 
 .title{
-	font-family: 'Merriweather', serif;
+	font-family: 'EB Garamond', serif;
 	top: 10%;
 	position: relative;
 	text-align: center;
